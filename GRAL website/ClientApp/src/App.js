@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-
-import { Counter } from './components/Counter';
-
-import './custom.css'
-
-export default class App extends Component {
-  static displayName = App.name;
-
-  render () {
-    return (
-      <Counter></Counter>
-    );
-  }
+import './index.css';
+import Navbar from './components/Navbar';
+import FullWidthContainer from './components/FullWidthContainer';
+import ArticleLoader from './components/ArticleLoader';
+import Welcome from './components/Welcome';
+function App() {
+  return (
+    <FullWidthContainer>
+      <Navbar></Navbar>
+      <Welcome></Welcome>
+    </FullWidthContainer>
+  );
 }
+
+export default App;
