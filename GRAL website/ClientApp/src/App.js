@@ -1,4 +1,4 @@
-import './index.css';
+import './custom.css';
 import Navbar from './components/Navbar';
 import FullWidthContainer from './components/FullWidthContainer';
 import ArticleLoader from './components/ArticleLoader';
